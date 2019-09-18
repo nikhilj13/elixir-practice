@@ -9,7 +9,7 @@ defmodule Practice.Factor do
   end
   
   def factor(x, n, acc) do
-    factor(x, n+1, acc)
+    factor(x, n + 1, acc)
   end
   
   def factor(x) do
